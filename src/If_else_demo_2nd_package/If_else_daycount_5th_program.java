@@ -24,12 +24,15 @@ public class If_else_daycount_5th_program {
 			else
 			{
 				System.out.println("This is not leap year");
-				System.err.println("This february have 28 day");
+				System.err.println("This february have 28 days");
 			}
 		}
 		else if(input.equalsIgnoreCase("april")||input.equalsIgnoreCase("june")||input.equalsIgnoreCase("september")||
 				input.equalsIgnoreCase("november")) {
 			System.out.println("30 days in this month");
+		}
+		else {
+			System.out.println("Wronge entity");
 		}
 	}
 	
