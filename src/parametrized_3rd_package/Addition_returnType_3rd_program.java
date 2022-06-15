@@ -8,7 +8,7 @@ public class Addition_returnType_3rd_program {
 		int c=a+b;
 		return c;
 		
-	}
+	} 
 	
 	public static void main(String[] args) {
 		Addition_returnType_3rd_program ob=new Addition_returnType_3rd_program();

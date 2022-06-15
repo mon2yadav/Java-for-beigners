@@ -3,7 +3,7 @@ package parametrized_3rd_package;
 
 
 public class Addition_demo_parameterized_1st_program {
-	public void getdata(int a, int b)  //parametrized
+	public void getdata(int a, int b)  //parametrized  and non return type
 	{
 		
 		int c=a+b;
