@@ -1,5 +1,13 @@
 package A1st_package_JavaProgram;
 
+
+/* This program is used to perform the calcultor function 
+ like:- addition, subtraction etc;*/
+
+
+
+
+
 public class A1st_program_Addition {
 	int a,b,c;
 	public void addition() {

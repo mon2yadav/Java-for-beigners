@@ -1,5 +1,9 @@
 package A1st_package_JavaProgram;
 
+
+/* In this program all
+ *  data is take from user at run time*/
+
 import java.util.Scanner;
 
 public class A3rd_program_calculator_demo {

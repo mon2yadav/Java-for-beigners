@@ -2,29 +2,40 @@ package A5th_package_ForLoop_And_Array;
 
 import java.util.Scanner;
 
-public class A10th_program_find_String {
+
+
+
+public class B1st_program_find_String {
 	
-	public int findstring(String input, String data) {
+	public void findstring(String input, String data) {
 		int count=0;
+		
 		String []str=input.split(" ");
-		for(int i=str.length-1; i>=0; i++) {
-			
-			if(str[i]==data) {
+		for(int i=0; i<=str.length-1; i++) {
+			if(str[i].equals(data)) {
 				count++;
 			}
+		
+			
 		}
-		return count;
-	}
+		
+		
+		if(count==0) {
+			System.out.println("Wrong entity");
+		}
+		
+		System.out.print(count++);
+		}
 	
 	public static void main(String[] args) {
-		A10th_program_find_String ob=new A10th_program_find_String();
+		B1st_program_find_String ob=new B1st_program_find_String();
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Please enter the sentence");
 		String input = sc.nextLine();
 		System.out.println("Enter the String for search");
 		String data = sc.next();
-		int out = ob.findstring(input, data);
-		System.out.println(out);
+		 ob.findstring(input, data);
+         		
 		
 		
 	}
