@@ -9,8 +9,8 @@ public class A5_A7th_ReverseString {
 		char c[]=input.toCharArray();
 		int len = c.length-1;
 		for(int i=len; i>=0; i--) {
-			out=out+c[i];
-//			out=out+" "+c[i];
+//			out=out+c[i];
+			out=out+" "+c[i];
 //			System.out.print(c[i]);
 //			System.out.print(" "+c[i]);
 		}
