@@ -8,7 +8,7 @@ class AA{                                                       //This class is 
 }
 class BB extends AA{                                              
 	
-	public void showdata() {
+	public void showdata() { 
 		System.out.println("This method called by showdata");
 	}
 }
