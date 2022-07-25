@@ -1,4 +1,4 @@
-package A5_ForLoop_And_Array;
+ package A5_ForLoop_And_Array;
 
 import java.util.Scanner;
 
